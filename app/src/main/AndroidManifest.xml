@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="kosmoglou.antogkou.learninganalytics">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/splash"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        //LoginActivity
+        <activity android:name=".LoginActivity" />
+        //MainActivity
+        <activity android:name=".MainActivity" />
+        //RegisterActivity
+        <activity android:name=".RegisterActivity" />
+        //SetupActivity
+        <activity android:name=".SetupActivity" />
+        //ClassroomFeedActivity
+        <activity
+            android:name=".ClassroomFeedActivity"
+            android:launchMode="singleTop" />
+        //NewClassroomActivity
+        <activity android:name=".NewClassroomActivity" />
+        //TeacherPanelActivity
+        <activity
+            android:name=".Teacher_Panel.TeacherPanelActivity"
+            android:label="@string/title_activity_teacher_panel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Student_Panel.StudentPanelActivity"
+            android:label="@string/title_activity_student_panel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Classroom.TeacherClassroomActivity"
+            android:label="@string/title_activity_teacher_classroom"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Classroom.StudentClassroomActivity"
+            android:label="@string/title_activity_student_classroom"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Student_Tab.StudentTabActivity"
+            android:label="@string/title_activity_student_tab"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Forum.PostsActivity" />
+        <activity android:name=".Forum.CommentsActivity" />
+        <activity android:name=".Forum.PostEditActivity" />
+        <activity android:name=".Forum.CommentEditActivity" />
+        <activity android:name=".NewQuizActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".QuizTestActivity" />
+        <activity android:name=".QuizReportActivity" />
+        <activity android:name=".ForgotPasswordActivity"></activity>
+    </application>
+
+</manifest>

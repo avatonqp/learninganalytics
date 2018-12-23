@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "437884854120",
+    "firebase_url": "https://analytics-5791c.firebaseio.com",
+    "project_id": "analytics-5791c",
+    "storage_bucket": "analytics-5791c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437884854120:android:b706d7c0a9be73b4",
+        "android_client_info": {
+          "package_name": "kosmoglou.antogkou.learninganalytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437884854120-858vlfadh3l772dultsu4prd0kcva4ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvv6ZDzAwT0VcR3fYaj_GntI_Dr5s9a7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
